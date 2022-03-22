@@ -1,0 +1,34 @@
+@import url("../css/why.css");
+@import url("../css/sdn.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+html {
+    font-family: "Open-sans", 'Raleway' sans-serif;
+    font-size: 14px;
+}
+.container {
+   
+
+}
+
+section {
+    padding: 80px 0;
+}
+
+p {
+    color: rgb(20, 20, 20);
+}
+.title {
+    font-family: "Raleway";
+    font-size: 36px; 
+    font-weight: 400;
+    color: #212121;  
+    margin: 0 80px;
+    text-align: center;
+}
+
