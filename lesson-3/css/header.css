@@ -1,0 +1,28 @@
+.header {
+  padding: 20px 0;
+  background-color: beige;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 36px;
+  color: coral;
+  /* display: inline-block; */
+}
+.navigation {
+  /* display: inline-block; */
+}
+.navigation-list {
+  display: flex;
+}
+.navigation-list-item {
+  margin-left: 25px;
+  /* display: inline-block; */
+}
+.navigation-list-item a {
+  color: cornflowerblue;
+}
