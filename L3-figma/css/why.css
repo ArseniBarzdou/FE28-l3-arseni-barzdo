@@ -16,24 +16,32 @@
 
 .awesome-title {
     margin: 70px;
+    /* margin-bottom: 30px; */
+    text-transform: uppercase;
 
 }
-.awesome-title::after {
-    /* margin-top: 20px; */
+/* .awesome-title::after {
+    margin-top: 20px;
     content: '';
     position: f;
     width: 62px;
     height: 200x;
     background-color: #E72424;
+} */
+.red_line { 
+    /* margin-top: 35px; */
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    margin: 35px auto;
 }
-
 .awesome-text {
     font-family: "Open Sans";
     font-weight: 400;
-    font-style: normal;
+    /* font-style: normal; */
     line-height: 19px;
     color: #86878B;
-    margin-top: 70px;
+    /* margin-top: 70px; */
     text-align: center;
     /* margin: auto ; */
 }

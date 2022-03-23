@@ -1,5 +1,6 @@
 @import url("../css/why.css");
 @import url("../css/sdn.css");
+@import url("../css/price.css");
 * {
     margin: 0;
     padding: 0;
@@ -12,17 +13,17 @@ html {
     font-size: 14px;
 }
 .container {
-   
+    max-width: 1170px; 
+    padding: 0 15px 0;
+    margin: 0%;
 
 }
 
 section {
-    padding: 80px 0;
+    margin: 80px 0;
 }
 
-p {
-    color: rgb(20, 20, 20);
-}
+
 .title {
     font-family: "Raleway";
     font-size: 36px; 
