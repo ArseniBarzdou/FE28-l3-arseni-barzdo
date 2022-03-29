@@ -1,0 +1,71 @@
+.axure-header {
+    /* border: 1px solid rgb(36, 36, 36); */
+    max-width: 1170px;
+    margin: 0 auto 62px; 
+    position: relative;
+    background-image: url(../img/bgphoto.png);
+    height: 325px;
+    padding-top: 30px;
+    
+}
+
+
+.axure-title {
+    margin: 70px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: "Raleway";
+    font-size: 36px; 
+    font-weight: 400;   
+    margin: 35px;
+    text-align: center;
+    line-height: 42px;
+    
+
+}
+.axure-title:after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    margin: 35px auto;
+    
+    background-color: #FFFFFF;
+}
+.axure-text {
+    font-family: "Open Sans";
+    font-weight: 400;
+    /* font-style: normal; */
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+   margin-bottom: 57px;
+}
+
+.box-link {
+    display: block;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 10px auto 27px;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    width: 135px;
+    height: 42px;
+    
+}
+
+a:hover {
+    background-color: #FFFFFF;
+    transition: 0.3s;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 38px;
+    color: #000000;
+}

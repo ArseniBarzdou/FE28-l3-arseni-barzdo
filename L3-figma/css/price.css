@@ -1,17 +1,14 @@
 
 .price-block {
     width: 340px;
-    height: 456px;
-    /* border: 1px solid rgb(70, 68, 68); */
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 62px;
+        margin: auto 15px;
+    
+    
 }
 .price-wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .price-block-item {
     margin-bottom: 2px;
@@ -24,63 +21,61 @@
     vertical-align: middle; */
 
 }
-.item-price-1 {
+.price-item-option {
     background-color: #333333;
+    width: 340px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 27px;
+    line-height: 50px;
+    margin-bottom: 2px;
     text-align: center;
 
     color: #FFFFFF;
 
 }
-.item-price-2 {
+.price-item-price {
     background-color: #333333;
+    width: 340px;
     flex-grow: 1;
     padding: 15px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
-    /* line-height: 41px; */
-    /* identical to box height */
-
+    line-height: 100px;
+    
+    margin-bottom: 2px;
     text-align: center;
 
     color: #FFFFFF;
 
 }
-.item-price-3 {
+.price-item-value {
     background-color: #333333;
-    /* position: absolute;
-    width: 78px;
-    height: 19px;
-    left: 248px;
-    top: 443px; */
-
+    width: 340px;
+    margin-bottom: 4px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    line-height: 19px;
-    /* identical to box height */
-
+    line-height: 50px;
     text-align: center;
 
     color: rgba(255, 255, 255, 0.5);
 
 }
-.item-price-4 {
+
+.price-item-text {
     font-family: 'Open Sans';
     font-style: normal;
+    width: 340px;
+    background-color: white;
     font-weight: 400;
     font-size: 14px;
-    line-height: 19px;
-    margin-top: 2px;
-    /* identical to box height */
-
+    line-height: 40px;
+    margin-bottom: 4px;    
     text-align: center;
 
     color: #86878B;

@@ -1,6 +1,8 @@
 @import url("../css/why.css");
 @import url("../css/sdn.css");
 @import url("../css/price.css");
+@import url("../css/customer.css");
+@import url("../css/axure.css");
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +17,7 @@ html {
 .container {
     max-width: 1170px; 
     padding: 0 15px 0;
-    margin: 0%;
+    margin: auto;
 
 }
 
@@ -29,7 +31,10 @@ section {
     font-size: 36px; 
     font-weight: 400;
     color: #212121;  
-    margin: 0 80px;
+    margin: 35px;
     text-align: center;
 }
 
+.pricing { 
+    background-color: #F5F5F5;
+}
