@@ -34,15 +34,15 @@
 
 .customer-text:before {
     content: "";
-    display: inline-block;
-    top: 105px;
-    left: 30px;
+    display: block;
+    top: 100%;
+    left: 40px;
     position: absolute;
     width: 0;
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 20px solid #E2E2E2;
+    border-top: 15  px solid #E2E2E2;
     /* border-top: 15px solid transparent;
     border-right: 20px solid red;
     border-bottom: 15px solid transparent;
@@ -57,12 +57,16 @@
     justify-content: space-around;
 }
 .customer-img {
-    
-}
-.customer-img img {
     width: 70px;
     height: 70px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
+}
+.customer-img img {
+    height: 100%;
     
 }
 .customer-nick {

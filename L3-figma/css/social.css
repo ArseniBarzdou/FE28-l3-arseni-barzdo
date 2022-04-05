@@ -1,0 +1,37 @@
+.social {
+    padding-top: 14px;
+    height: 110px;
+    background:  #F8EFEF;
+}
+.container {
+}
+.social-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.social-media {
+   
+}
+.social-media-main {
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 14px;
+    color: #333333;
+}
+.social-media-text {
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    line-height: 19px;
+    width: 365px;
+    color: #86878B;
+}
+.social-icon {
+    display: flex;
+    color: rgba(0, 0, 0, 0.3); 
+    align-items: center;
+    font-size: 50px;
+    letter-spacing: 40px;
+}

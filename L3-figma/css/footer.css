@@ -1,0 +1,28 @@
+.footer {
+    padding: 30px ;
+    width: 1170px;
+    height: 101px;
+    margin: -15px;
+    background-color: black;
+}
+.footer-info {
+    
+}
+.footer-info-icon {
+    margin: 0;
+    margin-bottom: 18px;
+}
+.footer-info-themes {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5); 
+    font-size: 20px;
+    letter-spacing: 30px;
+    
+}

@@ -87,3 +87,8 @@
     text-align: center;
     color: rgb(32, 32, 32);
 }
+
+.item-awesome-icon i {
+    font-size: 30px;
+    color: orange;
+}

@@ -1,13 +1,33 @@
-.axure-header {
+.axure::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.53);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 100;
+}
+
+.axure {
     /* border: 1px solid rgb(36, 36, 36); */
     max-width: 1170px;
     margin: 0 auto 62px; 
     position: relative;
     background-image: url(../img/bgphoto.png);
+    background-color:#000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding: 58px 0;
     height: 325px;
     padding-top: 30px;
+
     
 }
+
 
 
 .axure-title {
@@ -20,6 +40,7 @@
     margin: 35px;
     text-align: center;
     line-height: 42px;
+    z-index: 1;
     
 
 }
